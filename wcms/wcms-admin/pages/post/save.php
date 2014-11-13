@@ -1,5 +1,5 @@
 <?php
-include('../../bootstrap.php' ); 
+include('../../../bootstrap.php' ); 
 
 if ( isset($_POST['post_edit_form']) ) {
 	$post_id = _post('post_id');

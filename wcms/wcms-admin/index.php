@@ -2,10 +2,12 @@
 
 $action = strip_tags( filter_input(INPUT_GET, 'action') );
 
-include ('bootstrap.php'); 
+include('../bootstrap.php' ); 
+
 include (WCMS_ADMIN_DIR . '/pages/login/check_login.php');
 
 include (WCMS_ADMIN_DIR . '/pages/header.php');
+
 switch ($action) {
 	case 'edit_post':
     include (WCMS_ADMIN_DIR . '/pages/post/edit_post.php');
@@ -52,6 +54,7 @@ switch ($action) {
 		include (WCMS_ADMIN_DIR . '/pages/index/index.php');
 		break;
 }
+
 include (WCMS_ADMIN_DIR . '/pages/footer.php');
 
 

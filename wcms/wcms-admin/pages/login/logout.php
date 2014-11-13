@@ -1,6 +1,6 @@
 <?php
 session_start(); 
-include( '../bootstrap.php' ); 
+include('../../../bootstrap.php' ); 
 
 if ( isset($_SESSION['user_data']) ) {
 	unset($_SESSION['user_data']);

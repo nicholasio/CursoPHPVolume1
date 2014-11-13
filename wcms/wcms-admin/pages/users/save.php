@@ -1,6 +1,6 @@
 <?php
 
-include('../../bootstrap.php' ); 
+include('../../../bootstrap.php' ); 
 
 if ( isset($_POST['user_edit_form']) ) {
 	$user_id = _post('user_id');

@@ -1,6 +1,6 @@
 <?php
 
-include('../../bootstrap.php' ); 
+include('../../../bootstrap.php' ); 
 
 if ( isset($_POST['media_edit_form']) ) {
 	$media_id = _post('media_id');

@@ -1,6 +1,6 @@
 <?php
 
-include('../../bootstrap.php' ); 
+include('../../../bootstrap.php' ); 
 
 if ( isset($_POST['categories_edit_form']) ) {
 	$cat_id = _post('cat_id');
