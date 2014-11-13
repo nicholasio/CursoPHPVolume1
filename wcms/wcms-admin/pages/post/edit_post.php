@@ -11,6 +11,7 @@
 	$post_status     = '';
 	$post_author     = '';
 	$post_image      = '';
+	$post_order      = 0; 
 	
 
 	if ( $post_id ) {
@@ -23,6 +24,7 @@
 		$post_status     = $post->post_status;
 		$post_author     = $post->post_author;
 		$post_image      = $post->post_image;
+		$post_order      = $post->post_order;
 
 		$posts_categories = wcms_db_select( 'post_categories', ['*'], ['posts_ID' => $post_id]);
 		if ( $posts_categories )
@@ -122,6 +124,17 @@
 					<?php endif; ?>
 			</div>
 		</div>
+	<?php endif; ?>
+
+	<?php if ( $post_type == 'page') : ?>
+		<div class="form-group">
+			<label for="post_order" class="col-sm-1 control-label">Ordem de Página</label>
+			<div class="col-sm-8">
+			  <input type="text" class="form-control" id="post_order" name="post_order" required value="<?= $post_order ?>">
+			</div>
+		</div>
+	<?php else: ?>
+		<input type="hidden" name="post_order" value="<?= $post_order; ?>">
 	<?php endif; ?>
 
 	<?php if ( $post_id ) : ?>

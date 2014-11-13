@@ -13,6 +13,7 @@ if ( isset($_POST['post_edit_form']) ) {
 			  'post_image'		=> _post('post_image') ? _post('post_image') : NULL,
 			  'post_status'		=> _post('post_status'),
 			  'post_type'		=> _post('post_type'),
+			  'post_order'		=> _post('post_order')
 			 ];
 
 	if ( $post_id ) {

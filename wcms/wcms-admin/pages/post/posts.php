@@ -18,6 +18,9 @@
    		<th>Resumo</th>
    		<th>Data</th>
    		<th>Status</th>
+         <?php if ( $post_type == 'page' ) : ?>
+            <th>Order</th>
+         <?php endif;   ?>
    		<th>Ações</th>
    	</tr>
  </thead>
@@ -39,6 +42,9 @@
                      echo 'Pendente';
                ?>
                </td>
+            <?php if ( $post_type == 'page' ) : ?>
+               <td><?= $post->post_order; ?></td>
+            <?php endif;   ?>
    			<td>
             <a href="<?= do_action('edit_post',   ['post_id' => $post->ID, 'post_type' => $post_type ] ); ?>" class="btn btn-info" >Editar</a>
             <a href="<?= do_action('delete_post', ['post_id' => $post->ID, 'post_type' => $post_type ]); ?>" class="btn btn-danger">Remover</a>

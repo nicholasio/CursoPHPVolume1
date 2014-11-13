@@ -1,7 +1,7 @@
 <?php
 
 function wcms_fetch_all_posts( $post_type ) {
-	return wcms_db_select( 'posts', ['*'] , ['post_type' => $post_type] );
+	return wcms_db_select( 'posts', ['*'] , ['post_type' => $post_type], [], ['post_date', 'DESC'] );
 }
 
 function wcms_assign_category( $post_id , $categories ) {

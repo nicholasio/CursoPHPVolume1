@@ -71,7 +71,7 @@ function wcms_db_delete($table, Array $where) {
 	return false;
 }
 
-function wcms_db_select($table, Array $columns, Array $where = [] , $result_mode = PDO::FETCH_OBJ ) {
+function wcms_db_select($table, Array $columns, Array $where = [] , Array $limit = [], Array $order = [], $result_mode = PDO::FETCH_OBJ ) {
 	$conn = getConnection();
 
 	$sColumns  =  implode(',', $columns);
@@ -82,10 +82,20 @@ function wcms_db_select($table, Array $columns, Array $where = [] , $result_mode
 	if ( ! empty($where) ) 	
 		$sWhere = " WHERE " . $placeholders;
 
-	$stmt = $conn->prepare("SELECT {$sColumns} FROM {$table} {$sWhere}");
+	$sLimit = '';
+	if ( ! empty($limit) ) 
+		$limit = 'LIMIT ' . implode(',', $limit);
+
+	$sOrder = '';
+	if ( ! empty($order) ) 
+		$sOrder =  'ORDER BY ' . $order[0] . ' ' . $order[1];
+	
+	$stmt = $conn->prepare("SELECT {$sColumns} FROM {$table} {$sWhere} {$sLimit} {$sOrder}");
 
 	if ( ! empty($where) ) 
 		wcms_db_prepare($stmt, $values);
+
+
 
 	if ( $stmt->execute() )
 		return $stmt->fetchAll($result_mode);

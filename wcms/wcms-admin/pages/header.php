@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Painel Administrativo</title>
+    <title>WCMS | Painel Administrativo</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -53,6 +53,7 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
+            <li class="<?php menu_selected('index'); ?>"><a href="<?= do_action('index'); ?>">Painel</a></li>
             <li class="<?php menu_selected('posts', ['post_type' => 'post']); ?>"><a href="<?= do_action('posts', ['post_type' => 'post']); ?>">Posts</a></li>
             <li class="<?php menu_selected('categories'); ?>" ><a href="<?= do_action('categories'); ?>">Categorias</a></li>
             <li class="<?php menu_selected('posts', ['post_type' => 'page']); ?>"><a href="<?= do_action('posts', ['post_type' => 'page']); ?>">Páginas</a></li>
