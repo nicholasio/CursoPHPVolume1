@@ -3,13 +3,15 @@ session_start();
 
 ini_set( 'default_charset', 'utf-8');
 
-define( 'WCMS_SITE_DIR' , __DIR__ );
-define( 'WCMS_ADMIN_DIR', WCMS_SITE_DIR  . '/wcms-admin');
+define( 'WCMS_BASE_DIR' , __DIR__ );
+define( 'WCMS_SITE_DIR', WCMS_BASE_DIR  . '/site');
+define( 'WCMS_ADMIN_DIR', WCMS_BASE_DIR  . '/wcms-admin');
 define( 'WCMS_UPLOAD_DIR', WCMS_SITE_DIR . '/site/uploads');
 
-define( 'WCMS_PUBLIC_URL', 'http://scotchbox/cursophpvolume1/wcms');
-define( 'WCMS_ADMIN_URL',  WCMS_PUBLIC_URL . '/wcms-admin/' );
-define( 'WCMS_UPLOAD_URL', WCMS_PUBLIC_URL . '/site/uploads');
+define( 'WCMS_BASE_URL', 'http://scotchbox/cursophpvolume1/wcms');
+define( 'WCMS_SITE_URL', WCMS_BASE_URL . '/site');
+define( 'WCMS_ADMIN_URL',  WCMS_BASE_URL . '/wcms-admin/' );
+define( 'WCMS_UPLOAD_URL', WCMS_BASE_URL . '/site/uploads');
 
 define( 'WCMS_PROJECT_NAME', 'Super Blog');
 

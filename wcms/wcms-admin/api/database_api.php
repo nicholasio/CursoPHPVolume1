@@ -42,10 +42,6 @@ function wcms_db_update($table, Array $data, Array $where) {
 	if ( ! empty($where) ) 
 		wcms_db_prepare($stmt, $values_where);
 
-	echo '<pre>';
-	var_dump( $values );
-	echo '</pre>';
-	//die();
 	if ( $stmt->execute() ) return true;
 
 	return false;
@@ -84,13 +80,14 @@ function wcms_db_select($table, Array $columns, Array $where = [] , Array $limit
 
 	$sLimit = '';
 	if ( ! empty($limit) ) 
-		$limit = 'LIMIT ' . implode(',', $limit);
+		$sLimit = 'LIMIT ' . implode(',', $limit);
 
 	$sOrder = '';
 	if ( ! empty($order) ) 
 		$sOrder =  'ORDER BY ' . $order[0] . ' ' . $order[1];
-	
-	$stmt = $conn->prepare("SELECT {$sColumns} FROM {$table} {$sWhere} {$sLimit} {$sOrder}");
+
+
+	$stmt = $conn->prepare("SELECT {$sColumns} FROM {$table} {$sWhere} {$sOrder} {$sLimit}");
 
 	if ( ! empty($where) ) 
 		wcms_db_prepare($stmt, $values);

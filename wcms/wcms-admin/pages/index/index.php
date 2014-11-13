@@ -41,7 +41,7 @@
         <div class="panel-body">
           <table class="table table-hover">
             <?php 
-              $latestPost = wcms_db_select('posts', ['*'], ['post_type' => 'post'], [0,5], ['post_date', 'DESC']); 
+              $latestPost = wcms_db_select('posts', ['*'], ['post_type' => 'post'], [0,4], ['post_date', 'DESC']); 
               foreach($latestPost as $post ):
             ?>
               <tr>

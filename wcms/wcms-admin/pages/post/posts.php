@@ -15,7 +15,6 @@
    	<tr>
    		<th>#</th>
    		<th>Título</th>
-   		<th>Resumo</th>
    		<th>Data</th>
    		<th>Status</th>
          <?php if ( $post_type == 'page' ) : ?>
@@ -32,7 +31,6 @@
    		<tr>
    			<td><?= $post->ID; ?></td>
    			<td><?= $post->post_title; ?></td>
-   			<td><?= $post->post_excerpt; ?></td>
    			<td><?= date('d/m/Y H:i:s', strtotime($post->post_date) ); ?></td>
    			<td>
                <?php 
