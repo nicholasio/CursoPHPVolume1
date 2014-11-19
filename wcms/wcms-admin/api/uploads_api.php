@@ -4,17 +4,17 @@ function wcms_fetch_all_uploads() {
 	return wcms_db_select( 'uploads', ['*']);
 }
 
-
 function doUpload( 	$caminho_absoluto, 
 					$inputName,
 					& $fileName,
 					$limitar_ext = true,
 				 	$extensoes_validas 	= array( '.png', '.jpg', '.jpeg', '.bmp' ), 
 				 	$limitar_tamanho 	= false,
-				 	$tamanho_bytes  	= "200000",
+				 	$tamanho_bytes  	= 200000,
 				 	$sobrescrever   	= false
 
 				 ) {
+
 
 	if ( isset($_FILES[$inputName]) ) {
 		$nome_arquivo	 	= $_FILES[$inputName]['name'];
@@ -47,4 +47,3 @@ function doUpload( 	$caminho_absoluto,
 	else
 		return "Selecione o arquivo a ser enviado";
 }
-

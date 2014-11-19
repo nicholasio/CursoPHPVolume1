@@ -8,13 +8,14 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>I/O Blog</title>
+    <title>I/O Blog | Seu Blog de Tecnologia</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?= WCMS_SITE_URL ?>/assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="<?= WCMS_SITE_URL ?>/assets/css/style.css" rel="stylesheet">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -28,13 +29,13 @@
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
-          <a class="blog-nav-item <?php if ( is_menu_selected('index') ) echo 'active'; ?>" href="<?= WCMS_BASE_URL; ?>">Home</a>
+          <a class="blog-nav-item <?php if ( is_menu_selected('index') ) echo 'active' ?>" href="<?= WCMS_BASE_URL; ?>">Home</a>
           <?php 
-            $menu_pages = wcms_get_menu_pages( 6 );
-            if ( $menu_pages ) : foreach($menu_pages as $page) :
+          	$menu_pages = wcms_get_menu_pages( 6 );
+          	if ( $menu_pages ) : foreach($menu_pages as $page):
           ?>
-            <a class="blog-nav-item <?php if ( is_menu_selected('page', ['post_id' => $page->ID]) ) echo 'active'; ?>" href="<?= get_permalink('page', ['post_id' => $page->ID]); ?>"><?= $page->post_title; ?></a>
-          <?php endforeach;endif; ?>
+      		<a class="blog-nav-item <?php if ( is_menu_selected('page', ['post_id' => $page->ID]) ) echo 'active' ?>" href="<?= get_permalink('page', ['post_id' => $page->ID]); ?>"><?= $page->post_title; ?></a>
+      	  <?php endforeach; endif; ?>
         </nav>
       </div>
     </div>
@@ -43,5 +44,5 @@
 
       <div class="blog-header">
         <h1 class="blog-title">I/O Blog</h1>
-        <p class="lead blog-description">Seu blog de Tecnologia</p>
+        <p class="lead blog-description">O Seu blog de Tecnologia.</p>
       </div>

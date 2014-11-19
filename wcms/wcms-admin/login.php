@@ -1,3 +1,4 @@
+<?php include('../bootstrap.php');?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,6 +17,7 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/login.css" rel="stylesheet">
 
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -27,11 +29,17 @@
 
     <div class="container">
 
-      <form class="form-signin" role="form" action="pages/login/wcms_login.php" method="POST" >
+      <form method="POST" class="form-signin" role="form" action="<?= do_action('login'); ?>">
         <h2 class="form-signin-heading">Login</h2>
-        <input type="email" class="form-control" placeholder="Email" required autofocus name="user_email" >
-        <input type="password" class="form-control" placeholder="Password" required name="user_pass" >
-        <input type="hidden" name="_login_form" value="1" />
+        <label for="user_email" class="sr-only">Email</label>
+
+        <input type="email" id="user_email" name="user_email" class="form-control" placeholder="Email" required autofocus>
+
+        <label for="user_pass" class="sr-only">Password</label>
+        <input type="password" id="user_pass" name="user_pass" class="form-control" placeholder="Password" required>
+
+        <input type="hidden" value="1" name="_login_form">
+
         <div class="checkbox">
           <label>
             <input type="checkbox" value="remember-me"> Lembrar-me

@@ -1,11 +1,9 @@
 <?php
-define('DBNAME', 'wcms' );
-define('DBUSER', 'root' );
-define('DBPASS', 'root' );
+include ( WCMS_ADMIN_DIR . '/database/config.php');
 
 try{
 	$conn = new PDO(
-    	'mysql:host=localhost;dbname=' . DBNAME, DBUSER, DBPASS
+    	'mysql:host=' . DBHOST . ';dbname=' . DBNAME, DBUSER, DBPASS
 	);	
 } catch (PDOException $e) {
 	echo "Erro: " . $e->getMessage() . "<br />";
@@ -17,5 +15,3 @@ function getConnection() {
 
 	return $conn;
 }
-
-

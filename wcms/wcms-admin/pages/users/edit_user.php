@@ -1,26 +1,25 @@
-<?php 
-	$user_id 	= _get('user_id');
-	$msg 		= "Adicionar Novo Usuário";
+<?php
+$user_id = _get('user_id');
+$msg = "Adicionar Novo usuário";
 
-	$user_first_name = '';
-	$user_last_name  = '';
-	$user_email 	 = '';
-	
-	if ( $user_id ) {
-		$msg = "Editar Usuário";
-		$user = wcms_db_select('users', [ '*' ], ['ID' => $user_id] )[0];
+$user_first_name = '';
+$user_last_name = '';
+$user_email = '';
 
-		$user_first_name = $user->user_first_name;
-		$user_last_name  = $user->user_last_name;
-		$user_email 	 = $user->user_email;
-	}
+if ( $user_id ) {
+	$msg = "Editar Usuário";
+	$user = wcms_db_select('users', ['*'], ['ID' => $user_id] )[0];
+
+	$user_first_name = $user->user_first_name;
+	$user_last_name  = $user->user_last_name;
+	$user_email      = $user->user_email;
+}
 ?>
-
 <?php displayNotices(); ?>
-
 <h1 class="page-header"><?= $msg; ?></h1>
 
-<form class="form-horizontal" role="form" method="POST" action="<?= WCMS_ADMIN_URL . 'pages/users/save.php'; ?>">
+
+<form class="form-horizontal" role="form" method="POST" action="<?= do_action('save_users'); ?>">
 
 	<div class="form-group">
 		<label for="user_first_name" class="col-sm-1 control-label">Primeiro Nome</label>
@@ -60,8 +59,7 @@
 	<?php if ( $user_id ) : ?>
 		<input type="hidden" name="user_id" value="<?= $user_id; ?>">
 	<?php endif; ?>
-
-
+	
 	<div class="form-group">
 		<div class="col-sm-offset-1 col-sm-8">
 		  <button type="submit" name="user_edit_form" class="btn btn-success">Salvar</button>

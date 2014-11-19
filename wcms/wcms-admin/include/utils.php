@@ -1,18 +1,23 @@
 <?php
 
 function do_action($action, Array $params = null) {
-
 	$sParams = '';
-
+	
 	if ( ! is_null($params) ) {
-		$aParams = array_map(function($key, $value) { return $key . '=' . urlencode($value); }, array_keys($params), array_values($params));
+		$aParams = array_map( 
+			function($key , $value) { 
+				return $key . '=' . urlencode($value);
+			}, 
+			array_keys($params), array_values($params) 
+		);
+		
 		$sParams = '&' . implode('&', $aParams);
 	}
 
-	return WCMS_ADMIN_URL . 'index.php?action=' . $action . $sParams;
+	return WCMS_ADMIN_URL . '/index.php?action=' . $action . $sParams;
 }
 
-function _get($actionName) {
+function _get( $actionName ) {
 	return strip_tags( filter_input(INPUT_GET, $actionName) );
 }
 
@@ -42,22 +47,21 @@ function displayNotices( ) {
       displaySuccessMessage($successMsg);
 }
 
-function menu_selected( $menu_action, Array $params = null ) {
+function menu_selected( $menu_action, Array $params = null) {
 	$active = true;
 
 	if ( _get('action') != $menu_action ) $active = false;
 
 	if ( ! is_null($params) ) {
-		array_walk($params, 
-			function($item, $key) use (&$active) {
-				if ( _get($key) != $item ) {
+		array_walk($params,
+			function($item, $key) use(&$active) {
+				if ( _get($key) != $item )
 					$active = false;
-				} 
 			}
 		);
 	}
 
-	if ( $active || ($menu_action == 'index' && !_get('action') ) ) {
+	if ( $active || ($menu_action == 'index' && ! _get('action') ) ) {
 		echo ' active ';
 	}
 }

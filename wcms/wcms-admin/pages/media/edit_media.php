@@ -19,7 +19,7 @@
 
 <h1 class="page-header"><?= $msg; ?></h1>
 
-<form class="form-horizontal" role="form" method="POST" enctype="multipart/form-data" action="<?= WCMS_ADMIN_URL . 'pages/media/save.php'; ?>">
+<form class="form-horizontal" role="form" method="POST" enctype="multipart/form-data" action="<?= do_action('save_media'); ?>">
 
 	<div class="form-group">
 		<label for="upload_name" class="col-sm-1 control-label">Nome</label>

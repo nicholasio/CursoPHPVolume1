@@ -1,25 +1,24 @@
-<?php 
-	$cat_id 	= _get('cat_id');
-	$msg 		= "Adicionar Nova Categoria";
+<?php
+$cat_id = _get('cat_id');
+$msg = "Adicionar Novo Categoria";
 
-	$cat_name 			= '';
-	$cat_description  	= '';
-	
-	
-	if ( $cat_id ) {
-		$msg = "Editar Categoria";
-		$cat = wcms_db_select('categories', [ '*' ], ['ID' => $cat_id] )[0];
+$cat_name = '';
+$cat_description = '';
 
-		$cat_name 			= $cat->cat_name;
-		$cat_description  	= $cat->cat_description;
-	}
+
+if ( $cat_id ) {
+	$msg = "Editar Nova Categoria";
+	$cat = wcms_db_select('categories', ['*'], ['ID' => $cat_id] )[0];
+
+	$cat_name = $cat->cat_name;
+	$cat_description = $cat->cat_description;
+
+}
 ?>
-
 <?php displayNotices(); ?>
-
 <h1 class="page-header"><?= $msg; ?></h1>
 
-<form class="form-horizontal" role="form" method="POST" action="<?= WCMS_ADMIN_URL . 'pages/categories/save.php'; ?>">
+<form class="form-horizontal" role="form" method="POST" action="<?= do_action('save_category'); ?>">
 
 	<div class="form-group">
 		<label for="cat_name" class="col-sm-1 control-label">Nome da Categoria</label>

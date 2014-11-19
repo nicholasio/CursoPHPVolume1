@@ -1,9 +1,7 @@
 <?php
-/**
- * Funções para inclusão de arquivos
- */
+
 function get_header( $suffix = '' ) {
-	$_suffix = empty($suffix) ?  '' : '-' . $suffix;
+	$_suffix = empty($suffix) ? '' : '-' . $suffix;
 
 	include( WCMS_SITE_DIR . '/header' . $_suffix . '.php');
 }
@@ -19,10 +17,6 @@ function get_sidebar( $suffix = '' ) {
 
 	include( WCMS_SITE_DIR . '/sidebar' . $_suffix . '.php');	
 } 
-
-/*
- * Funções Diversas
- */
 
 function wcms_get_menu_pages( $nPages = -1 ) {
 	$nPages = ($nPages == -1) ? [] : [0,$nPages];
@@ -62,4 +56,3 @@ function is_menu_selected( $menu_action, Array $params = null ) {
 
 	return false;
 }
-
