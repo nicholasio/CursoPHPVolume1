@@ -108,3 +108,8 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+INSERT INTO `users` (`ID`, `user_email`, `user_pass`, `user_first_name`, `user_last_name`) VALUES
+(5, 'nicholas@iotecnologia.com.br', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'NÃ­cholas', 'AndrÃ©'),
+(12, 'rosana@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Rosana', 'Alves');
+
