@@ -1,0 +1,1011 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"exec",
+				"execute"
+			],
+			[
+				"posts",
+				"postsPerPage"
+			],
+			[
+				"catego",
+				"categories_ID"
+			],
+			[
+				"post_",
+				"post_type"
+			],
+			[
+				"WCMS_",
+				"WCMS_SITE_DIR"
+			],
+			[
+				"post",
+				"posts"
+			],
+			[
+				"cate",
+				"categories"
+			],
+			[
+				"upl",
+				"upload_data"
+			],
+			[
+				"sucess",
+				"successMsg"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"su",
+				"successMsg"
+			],
+			[
+				"WCMS_ADMIN",
+				"WCMS_ADMIN_DIR"
+			],
+			[
+				"wcms",
+				"wcms-admin"
+			],
+			[
+				"WCMS",
+				"WCMS_BASE_URL"
+			],
+			[
+				"arq",
+				"arquivo_temporario"
+			],
+			[
+				"limit",
+				"limitar_ext"
+			],
+			[
+				"tama",
+				"tamanho_bytes"
+			],
+			[
+				"DateTime",
+				"DateTimeZone"
+			],
+			[
+				"DateTIme",
+				"DateTimeZone"
+			],
+			[
+				"date_Time",
+				"date_timezone_set"
+			],
+			[
+				"co",
+				"count"
+			],
+			[
+				"vetor",
+				"vetor_idades"
+			],
+			[
+				"del",
+				"delete_product"
+			],
+			[
+				"social",
+				"social-buttons"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"so",
+				"social-buttons"
+			],
+			[
+				"socia",
+				"social-buttons"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"carga",
+				"carga_horaria"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"wrap",
+				"wrapper-combo-taxonomy"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"ar",
+				"arrow-down"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"wra",
+				"wrapper-combo-taxonomy"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"fo",
+				"float"
+			],
+			[
+				"son",
+				"son-btn"
+			],
+			[
+				"box",
+				"box-preco"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"title",
+				"title-curso-trilha"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"arrow",
+				"arrow-up"
+			],
+			[
+				"bore",
+				"border-bottom"
+			],
+			[
+				"cu",
+				"courses"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"c",
+				"cursos"
+			],
+			[
+				"cursos",
+				"cursos-destaque-blog"
+			],
+			[
+				"cursos-desta",
+				"cursos-destaque-blog"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"de",
+				"destaque"
+			],
+			[
+				"He",
+				"HelveticaNeue"
+			],
+			[
+				"curren",
+				"current-cat"
+			],
+			[
+				"widget",
+				"widget_categories"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"border-ri",
+				"border-right"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"arr",
+				"arrow-up"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"barra",
+				"barra-topo-menu"
+			],
+			[
+				"recent",
+				"recent_posts"
+			],
+			[
+				"twt",
+				"twitter_link"
+			],
+			[
+				"twitter",
+				"twitter_link"
+			],
+			[
+				"twi",
+				"twitter_link"
+			],
+			[
+				"tw",
+				"twitter_link"
+			],
+			[
+				"zeniwp",
+				"zeniwp_register_menus"
+			],
+			[
+				"zeniwp_re",
+				"zeniwp_register_scripts"
+			],
+			[
+				"zeniwp_regis",
+				"zeniwp_register_menus"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/nicholas/Sites/php.local/wcms/site/assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 2409,
+				"line_ending": "Unix",
+				"name": "style.css"
+			}
+		},
+		{
+			"file": "/Users/nicholas/Sites/php.local/wcms/site/index.php",
+			"settings":
+			{
+				"buffer_size": 1280,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nicholas/Sites/php.local/wcms/wcms-admin/include/template_api.php",
+			"settings":
+			{
+				"buffer_size": 1418,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nicholas/Sites/php.local/wcms/site/header.php",
+			"settings":
+			{
+				"buffer_size": 1779,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nicholas/Sites/php.local/wcms/site/footer.php",
+			"settings":
+			{
+				"buffer_size": 674,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nicholas/Sites/php.local/wcms/site/page.php",
+			"settings":
+			{
+				"buffer_size": 419,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nicholas/Sites/php.local/wcms/site/sidebar.php",
+			"settings":
+			{
+				"buffer_size": 610,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nicholas/Sites/php.local/wcms/wcms-admin/api/posts_api.php",
+			"settings":
+			{
+				"buffer_size": 2785,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nicholas/Sites/php.local/wcms/site/single.php",
+			"settings":
+			{
+				"buffer_size": 545,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nicholas/Sites/php.local/wcms/site/category.php",
+			"settings":
+			{
+				"buffer_size": 1368,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/include/template_api.php",
+		"/Users/nicholas/Sites/php.local/wcms/index.php",
+		"/Users/nicholas/Sites/php.local/wcms/site/index.php",
+		"/Users/nicholas/Sites/php.local/wcms/site/header.php",
+		"/Users/nicholas/Sites/php.local/wcms/site/footer.php",
+		"/Users/nicholas/Sites/php.local/wcms/site/sidebar.php",
+		"/Users/nicholas/Sites/php.local/wcms/site/category.php",
+		"/Users/nicholas/Sites/php.local/wcms/site/page.php",
+		"/Users/nicholas/Sites/php.local/wcms/site/single.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/index.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/api/uploads_api.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/api/posts_api.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/post/posts.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/post/edit_post.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/post/save.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/post/delete_post.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/footer.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/index/index.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/header.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/categories/categories.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/categories/edit_category.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/categories/delete_category.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/categories/save.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/users/edit_user.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/media/media.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/media/edit_media.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/media/save.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/media/delete_media.php",
+		"/Users/nicholas/Sites/php.local/wcms/bootstrap.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/users/save.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/users/delete_user.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/include/utils.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/users/users.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/assets/css/dataTable.css",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/assets/js/dataTable.js",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/assets/js/scripts.js",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/api/category_api.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/api/users_api.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/api/database_api.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/database/config.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/database/conn.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/login.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/assets/css/login.css",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/login/wcms_login.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/login/check_login.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/pages/login/logout.php",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/assets/js/docs.min.js",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/assets/js/jquery.js",
+		"/Users/nicholas/Sites/php.local/wcms/wcms-admin/assets/css/dashboard.css",
+		"/Users/nicholas/Sites/php.local/wcms/teste",
+		"/Users/nicholas/Sites/php.local/Módulo 11/upload.php",
+		"/Users/nicholas/Sites/php.local/Módulo 11/form_upload.php",
+		"/Users/nicholas/Sites/php.local/Módulo 10/valida_session.php",
+		"/Users/nicholas/Sites/php.local/Módulo 10/home_session.php",
+		"/Users/nicholas/Sites/php.local/Módulo 10/session.php",
+		"/Users/nicholas/Sites/php.local/Módulo 10/logout_session.php",
+		"/Users/nicholas/Sites/php.local/Módulo 10/login.php",
+		"/Users/nicholas/Sites/php.local/Módulo 10/cookies.php",
+		"/Users/nicholas/Sites/php.local/Módulo 10/conn.php",
+		"/Users/nicholas/Sites/php.local/Módulo 10/valida_cookie.php",
+		"/Users/nicholas/Sites/php.local/Módulo 10/logout_cookies.php",
+		"/Users/nicholas/Sites/php.local/Módulo 10/home_cookies.php",
+		"/Users/nicholas/Sites/php.local/Módulo 9/contactform.php",
+		"/Users/nicholas/Sites/php.local/Módulo 9/conn.php",
+		"/Users/nicholas/Sites/php.local/Módulo 9/save.php",
+		"/Users/nicholas/Sites/php.local/Módulo 8/Aula2_3.php",
+		"/Users/nicholas/Sites/php.local/Módulo 8/conn.php",
+		"/Users/nicholas/Sites/php.local/Módulo 6/Aula1.php",
+		"/Users/nicholas/Sites/php.local/Módulo 6/Aula2.php",
+		"/Users/nicholas/Sites/php.local/Módulo 6/Aula3.php",
+		"/Users/nicholas/Sites/php.local/Módulo 6/utils.php",
+		"/Users/nicholas/Sites/php.local/Módulo 6/Aula4.php",
+		"/Users/nicholas/Sites/php.local/Módulo 5/Aula3.php",
+		"/Users/nicholas/Sites/php.local/Módulo 5/Aula1.php",
+		"/Users/nicholas/Sites/php.local/Módulo 5/Aula2.php",
+		"/Users/nicholas/Sites/php.local/Módulo 5/Aula4.php",
+		"/Users/nicholas/Sites/php.local/Módulo 5/Aula5.php",
+		"/Users/nicholas/Sites/php.local/Módulo 4/Aula6.php",
+		"/Users/nicholas/Sites/php.local/Módulo 4/Aula1.php",
+		"/Users/nicholas/Sites/php.local/Módulo 4/Aula2.php",
+		"/Users/nicholas/Sites/php.local/Módulo 4/Aula3_4_5.php",
+		"/Users/nicholas/Sites/php.local/Módulo 3/Aula2_3.php",
+		"/Users/nicholas/Sites/php.local/Módulo 3/pages/header.php",
+		"/Users/nicholas/Sites/php.local/Módulo 3/pages/404.php",
+		"/Users/nicholas/Sites/php.local/Módulo 3/pages/footer.php",
+		"/Users/nicholas/Sites/php.local/Módulo 3/pages/new_product.php",
+		"/Users/nicholas/Sites/php.local/Módulo 3/pages/index.php",
+		"/Users/nicholas/Sites/php.local/Módulo 3/pages/delete_product.php",
+		"/Users/nicholas/Sites/php.local/Módulo 3/pages/asdasd",
+		"/Users/nicholas/Sites/php.local/Módulo 3/pages/asdads",
+		"/Users/nicholas/Sites/php.local/Módulo 3/Aula1.php",
+		"/Users/nicholas/Sites/php.local/Códigos Finais/Módulo 4/Aula6.php",
+		"/Users/nicholas/Sites/php.local/Módulo 2/Aula_6.php",
+		"/Users/nicholas/Sites/php.local/Códigos Finais/Módulo 4/Aula3.php",
+		"/Users/nicholas/Sites/php.local/Códigos Finais/Módulo 4/Aula4.php",
+		"/Users/nicholas/Sites/php.local/Códigos Finais/Módulo 4/Aula5.php",
+		"/Users/nicholas/Sites/php.local/Módulo 2/Aula_2.php",
+		"/Users/nicholas/Sites/php.local/Módulo 2/Aula_3.php",
+		"/Users/nicholas/Sites/php.local/Módulo 2/Aula_4_5.php",
+		"/Users/nicholas/Sites/php.local/Módulo 2/Aula_1.php",
+		"/Users/nicholas/Sites/php.local/index.php",
+		"/Users/nicholas/Sites/php.local/Módulo 2/index.php",
+		"/Users/nicholas/Sites/Wordpress/arenadasdunas/wp-content/themes/arenadasdunas/style.css",
+		"/Users/nicholas/Sites/Wordpress/arenadasdunas/wp-content/themes/fp_santiago/homepage/widget_featured_cat.php",
+		"/Users/nicholas/Sites/Wordpress/arenadasdunas/wp-content/themes/arenadasdunas/content-single.php",
+		"/Users/nicholas/Sites/Wordpress/arenadasdunas/wp-content/themes/fp_santiago/homepage/widget_featured_cat_large.php",
+		"/Users/nicholas/Sites/Wordpress/arenadasdunas/wp-content/themes/arenadasdunas/contet-single.php",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/single-courses.php",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/inc/cabecalho.php",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/searchform.php",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/gulpfile.js",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/header.php",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/css/main2.css",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/inc/combo-taxonomy.php",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/functions.php",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/inc/cursos-combo.php",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/plugins/son.plugin/api.php",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/css/font-helvetica.css",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/js/main.js",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/js/vendor/jquery.countdown.min.js",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/js/vendor/jquery.countdown-pt-BR.js",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/dist/all.js",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/template-cursos.php",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/search.php",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/index.php",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/inc/desc-courses.php",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/js/vendor/jquery.tinyscrollbar.min.js",
+		"/Users/nicholas/Sites/vagrant-local/www/wordpress-default/wp-content/themes/son.tema/css/tinyscrollbar.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"page",
+			"cat",
+			"cats",
+			"user",
+			"users",
+			"views",
+			"helvetica",
+			".newsletter.form-busca",
+			".newsletter.form-busca input[type=\"text\"]",
+			"wpsonh_get_Valor",
+			".subfooter h4",
+			".subfoooter",
+			".margin",
+			".box-pre",
+			"font-family: 'Helvetica Neue','HelveticaNeue', sans-serif;",
+			"font-family: 'Helvetica Neue','HelveticaNeue';",
+			"font-family: 'Helvetica Neue', 'HelveticaNeue-Light';",
+			".lista-cursos",
+			"cursos-destaque",
+			".cursos-desta",
+			"x.png",
+			"x",
+			"images",
+			"../",
+			"scrollbar/",
+			"#scrollbar-x",
+			"#scrollbar1",
+			"tiny",
+			"arrow-up",
+			".arrow-",
+			"section h3",
+			".destaque",
+			".cate",
+			".categories",
+			".categor",
+			".categories",
+			"categories",
+			"cursos-destaque",
+			".arrow-up",
+			"bradcumbs",
+			"menu",
+			"Helvetica",
+			".banner",
+			".footer",
+			".clien",
+			".clients",
+			".arrow",
+			"certificado",
+			"wrapper",
+			"HelveticaNeue",
+			".son-b",
+			".list",
+			"lista-cursos",
+			"body",
+			".cabecalho",
+			"lupa",
+			".carrinho",
+			"cadastro-login",
+			"function zeniwp_pagination() {\n	global $wp_query, $wp_rewrite;\n\n	$total_pages = $wp_query->max_num_pages;\n\n\n	if ( $total_pages > 1 ) {\n		$current_page = max( 1, get_query_var( 'paged' ) );\n		$url_base = $wp_rewrite->pagination_base;\n		$big = 999999999; // Need an unlikely integer.\n\n		// Sets the URL format.\n		if ( $wp_rewrite->permalink_structure ) {\n			$format = '?paged=%#%';\n		} else {\n			$format = '/' . $url_base . '/%#%';\n		}\n\n		\n		$arguments =array(\n				'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),\n				'format' => $format,\n				'current' => $current_page,\n				'total' => $total_pages,\n				'show_all' => true,\n				'type' => 'list',\n				'prev_text' => '<<',\n				'next_text' => '>>',\n			);\n		\n\n		$pagination = '<div class=\"pagination-wrap\">' . paginate_links( $arguments ) . '</div>';\n\n		\n		if ( $url_base ) {\n			$pagination = str_replace( '//' . $url_base . '/', '/' . $url_base . '/', $pagination );\n		}\n\n		return $pagination;\n	}\n}\n",
+			".pager"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"font-family: 'Roboto Condensed', sans-serif;",
+			"BHelveticaNeue"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/nicholas/Sites/php.local/wcms/site/assets/css/style.css",
+					"settings":
+					{
+						"buffer_size": 2409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2409,
+								2409
+							]
+						],
+						"settings":
+						{
+							"auto_name": "style.css",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2878.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/nicholas/Sites/php.local/wcms/site/index.php",
+					"settings":
+					{
+						"buffer_size": 1280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/nicholas/Sites/php.local/wcms/wcms-admin/include/template_api.php",
+					"settings":
+					{
+						"buffer_size": 1418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								649,
+								649
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 56.0,
+						"translation.y": 341.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/nicholas/Sites/php.local/wcms/site/header.php",
+					"settings":
+					{
+						"buffer_size": 1779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/nicholas/Sites/php.local/wcms/site/footer.php",
+					"settings":
+					{
+						"buffer_size": 674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/nicholas/Sites/php.local/wcms/site/page.php",
+					"settings":
+					{
+						"buffer_size": 419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/nicholas/Sites/php.local/wcms/site/sidebar.php",
+					"settings":
+					{
+						"buffer_size": 610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								507,
+								507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/nicholas/Sites/php.local/wcms/wcms-admin/api/posts_api.php",
+					"settings":
+					{
+						"buffer_size": 2785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1707,
+								1707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 41.0,
+						"translation.y": 463.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/nicholas/Sites/php.local/wcms/site/single.php",
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/nicholas/Sites/php.local/wcms/site/category.php",
+					"settings":
+					{
+						"buffer_size": 1368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/nicholas/Sites/vagrant-local/wppluginstrunk.sublime-project"
+			],
+			[
+				"wp",
+				"/Users/nicholas/Sites/vagrant-local/wppluginstrunk.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true
+}
