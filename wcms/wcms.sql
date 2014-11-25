@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tempo de Geração: 25/11/2014 às 11h37min
+-- Tempo de Geração: 25/11/2014 às 11h51min
 -- Versão do Servidor: 5.5.38
 -- Versão do PHP: 5.5.17-2+deb.sury.org~precise+1
 
@@ -147,7 +147,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `user_first_name` varchar(60) DEFAULT NULL,
   `user_last_name` varchar(60) DEFAULT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=14 ;
 
 --
 -- Extraindo dados da tabela `users`
@@ -155,7 +155,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`ID`, `user_email`, `user_pass`, `user_first_name`, `user_last_name`) VALUES
 (5, 'nicholas@iotecnologia.com.br', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'NÃ­cholas', 'AndrÃ©'),
-(12, 'rosana@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Rosana', 'Alves');
+(12, 'rosana@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Rosana', 'Alves'),
+(13, 'admin@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Administrador', '');
 
 --
 -- Restrições para as tabelas dumpadas
