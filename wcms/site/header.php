@@ -36,7 +36,9 @@
           ?>
       		<a class="blog-nav-item <?php if ( is_menu_selected('page', ['post_id' => $page->ID]) ) echo 'active' ?>" href="<?= get_permalink('page', ['post_id' => $page->ID]); ?>"><?= $page->post_title; ?></a>
       	  <?php endforeach; endif; ?>
+          <a class="blog-nav-item pull-right" href="<?= WCMS_BASE_URL ?>/wcms-admin">Ir Para Admin</a>
         </nav>
+
       </div>
     </div>
 
