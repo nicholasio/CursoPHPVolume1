@@ -31,6 +31,7 @@
 
       <form method="POST" class="form-signin" role="form" action="<?= do_action('login'); ?>">
         <h2 class="form-signin-heading">Login</h2>
+        <p>Login: admin@gmail.com <br /> Senha: 123</p>
         <label for="user_email" class="sr-only">Email</label>
 
         <input type="email" id="user_email" name="user_email" class="form-control" placeholder="Email" required autofocus>
