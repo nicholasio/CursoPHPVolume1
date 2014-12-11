@@ -7,7 +7,7 @@ if ( isset($_POST['post_edit_form']) ) {
 		'post_title' => _post('post_title'),
 		'post_excerpt' => _post('post_excerpt'),
 		'post_content' => _post('post_content'),
-		'post_date'    => date('Y-m-d H:i:s'),
+		'post_date'    =>  date('Y-m-d H:i:s'),
 		'post_author'  => _post('post_author'),
 		'post_image'   => _post('post_image') ? _post('post_image') : NULL,
 		'post_status'  => _post('post_status'),
@@ -16,13 +16,14 @@ if ( isset($_POST['post_edit_form']) ) {
 	];
 
 	if ( $post_id ) {
+		unset($data['post_date']); 
 		if ( wcms_db_update( 'posts' , $data , ['ID' => $post_id ] ) ) {
 			wcms_assign_category($post_id, $_POST['post_categories']);
 			redirect('edit_post', ['successMsg' => 'Atualizado com sucesso', 'post_id' => $post_id, 'post_type' => $data['post_type'] ]);
 		} else {
 			redirect('edit_post', ['errorMsg' => 'Erro ao atualizar', 'post_id' => $post_id, 'post_type' => $data['post_type'] ]);
 		}
-	} else { 
+	} else {
 		$created_post = wcms_db_insert('posts', $data);
 		if ( $created_post ) {
 			wcms_assign_category($created_post, $_POST['post_categories']);
